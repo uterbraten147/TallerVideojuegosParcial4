@@ -1,0 +1,485 @@
+fileFormatVersion: 2
+guid: 2a35ae28b9717f848a694770b1bf340d
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: _jtr01t0
+    100002: _jtr01t0_b_collar01
+    100004: _jtr01t0_body
+    100006: _jtr01t0_body 1
+    100008: _jtr01t0_body 2
+    100010: _jtr01t0_body 3
+    100012: _jtr01t0_body 4
+    100014: _jtr01t0_c_lip_00
+    100016: _jtr01t0_c_lip_10
+    100018: _jtr01t0_c_nose
+    100020: _jtr01t0_cap01
+    100022: _jtr01t0_cap02
+    100024: _jtr01t0_eye_l
+    100026: _jtr01t0_eye_l 1
+    100028: _jtr01t0_eye_l_Layer_2
+    100030: _jtr01t0_eye_r
+    100032: _jtr01t0_eye_r 1
+    100034: _jtr01t0_eye_r_Layer_2
+    100036: _jtr01t0_eyebone01_l
+    100038: _jtr01t0_eyebone01_r
+    100040: _jtr01t0_eyebone02_l
+    100042: _jtr01t0_eyebone02_r
+    100044: _jtr01t0_face
+    100046: _jtr01t0_face 1
+    100048: _jtr01t0_face 2
+    100050: _jtr01t0_face 3
+    100052: _jtr01t0_face 4
+    100054: _jtr01t0_face01
+    100056: _jtr01t0_face02
+    100058: _jtr01t0_hair01
+    100060: _jtr01t0_hair02
+    100062: _jtr01t0_head
+    100064: _jtr01t0_jaw
+    100066: _jtr01t0_l_arm_bone01
+    100068: _jtr01t0_l_arm_bone02
+    100070: _jtr01t0_l_arm_bone04
+    100072: _jtr01t0_l_arm_bone05
+    100074: _jtr01t0_l_arm_bone06
+    100076: _jtr01t0_l_calf
+    100078: _jtr01t0_l_cheek_01
+    100080: _jtr01t0_l_cheek_02
+    100082: _jtr01t0_l_cheek_03
+    100084: _jtr01t0_l_clavicle
+    100086: _jtr01t0_l_clavicle_bone
+    100088: _jtr01t0_l_cloth01
+    100090: _jtr01t0_l_cloth02
+    100092: _jtr01t0_l_cloth03
+    100094: _jtr01t0_l_cloth04
+    100096: _jtr01t0_l_cloth05
+    100098: _jtr01t0_l_cloth06
+    100100: _jtr01t0_l_cloth07
+    100102: _jtr01t0_l_collar01
+    100104: _jtr01t0_l_collar02
+    100106: _jtr01t0_l_collar04
+    100108: _jtr01t0_l_eye_01
+    100110: _jtr01t0_l_eye_02
+    100112: _jtr01t0_l_eye_03
+    100114: _jtr01t0_l_eye_04
+    100116: _jtr01t0_l_eye_05
+    100118: _jtr01t0_l_eye_06
+    100120: _jtr01t0_l_eye_07
+    100122: _jtr01t0_l_eye_08
+    100124: _jtr01t0_l_finger0
+    100126: _jtr01t0_l_finger01
+    100128: _jtr01t0_l_finger02
+    100130: _jtr01t0_l_finger1
+    100132: _jtr01t0_l_finger11
+    100134: _jtr01t0_l_finger12
+    100136: _jtr01t0_l_finger2
+    100138: _jtr01t0_l_finger21
+    100140: _jtr01t0_l_finger22
+    100142: _jtr01t0_l_finger3
+    100144: _jtr01t0_l_finger31
+    100146: _jtr01t0_l_finger32
+    100148: _jtr01t0_l_finger4
+    100150: _jtr01t0_l_finger41
+    100152: _jtr01t0_l_finger42
+    100154: _jtr01t0_l_foot
+    100156: _jtr01t0_l_forearm
+    100158: _jtr01t0_l_hand
+    100160: _jtr01t0_l_lip_01
+    100162: _jtr01t0_l_lip_02
+    100164: _jtr01t0_l_lip_03
+    100166: _jtr01t0_l_lip_04
+    100168: _jtr01t0_l_lip_05
+    100170: _jtr01t0_l_lip_06
+    100172: _jtr01t0_l_lip_07
+    100174: _jtr01t0_l_mayu_01
+    100176: _jtr01t0_l_mayu_02
+    100178: _jtr01t0_l_mayu_03
+    100180: _jtr01t0_l_mayu_04
+    100182: _jtr01t0_l_mayu_05
+    100184: _jtr01t0_l_pocket
+    100186: _jtr01t0_l_thigh
+    100188: _jtr01t0_l_toe0
+    100190: _jtr01t0_l_upperarm
+    100192: _jtr01t0_l_wep_d
+    100194: _jtr01t0_lower_teeth
+    100196: _jtr01t0_lower_teeth 1
+    100198: _jtr01t0_neck
+    100200: _jtr01t0_pelvis
+    100202: _jtr01t0_r_arm_bone01
+    100204: _jtr01t0_r_arm_bone02
+    100206: _jtr01t0_r_arm_bone04
+    100208: _jtr01t0_r_arm_bone05
+    100210: _jtr01t0_r_arm_bone06
+    100212: _jtr01t0_r_calf
+    100214: _jtr01t0_r_cheek_01
+    100216: _jtr01t0_r_cheek_02
+    100218: _jtr01t0_r_cheek_03
+    100220: _jtr01t0_r_clavicle
+    100222: _jtr01t0_r_clavicle_bone
+    100224: _jtr01t0_r_cloth01
+    100226: _jtr01t0_r_cloth02
+    100228: _jtr01t0_r_cloth03
+    100230: _jtr01t0_r_cloth04
+    100232: _jtr01t0_r_cloth05
+    100234: _jtr01t0_r_cloth06
+    100236: _jtr01t0_r_cloth07
+    100238: _jtr01t0_r_collar01
+    100240: _jtr01t0_r_eye_01
+    100242: _jtr01t0_r_eye_02
+    100244: _jtr01t0_r_eye_03
+    100246: _jtr01t0_r_eye_04
+    100248: _jtr01t0_r_eye_05
+    100250: _jtr01t0_r_eye_06
+    100252: _jtr01t0_r_eye_07
+    100254: _jtr01t0_r_eye_08
+    100256: _jtr01t0_r_finger0
+    100258: _jtr01t0_r_finger01
+    100260: _jtr01t0_r_finger02
+    100262: _jtr01t0_r_finger1
+    100264: _jtr01t0_r_finger11
+    100266: _jtr01t0_r_finger12
+    100268: _jtr01t0_r_finger2
+    100270: _jtr01t0_r_finger21
+    100272: _jtr01t0_r_finger22
+    100274: _jtr01t0_r_finger3
+    100276: _jtr01t0_r_finger31
+    100278: _jtr01t0_r_finger32
+    100280: _jtr01t0_r_finger4
+    100282: _jtr01t0_r_finger41
+    100284: _jtr01t0_r_finger42
+    100286: _jtr01t0_r_foot
+    100288: _jtr01t0_r_forearm
+    100290: _jtr01t0_r_hand
+    100292: _jtr01t0_r_lip_01
+    100294: _jtr01t0_r_lip_02
+    100296: _jtr01t0_r_lip_03
+    100298: _jtr01t0_r_lip_04
+    100300: _jtr01t0_r_lip_05
+    100302: _jtr01t0_r_lip_06
+    100304: _jtr01t0_r_lip_07
+    100306: _jtr01t0_r_mayu_01
+    100308: _jtr01t0_r_mayu_02
+    100310: _jtr01t0_r_mayu_03
+    100312: _jtr01t0_r_mayu_04
+    100314: _jtr01t0_r_mayu_05
+    100316: _jtr01t0_r_pocket
+    100318: _jtr01t0_r_thigh
+    100320: _jtr01t0_r_toe0
+    100322: _jtr01t0_r_upperarm
+    100324: _jtr01t0_r_wep_d
+    100326: _jtr01t0_spine
+    100328: _jtr01t0_spine1
+    100330: _jtr01t0_spine2
+    100332: _jtr01t0_tongue
+    100334: _jtr01t0_tongue 1
+    100336: _jtr01t0_tongue01
+    100338: _jtr01t0_trall
+    100340: _jtr01t0_upper_teeth
+    100342: _jtr01t0_upper_teeth 1
+    100344: EnvironmentAmbientLight
+    100346: //RootNode
+    400000: _jtr01t0
+    400002: _jtr01t0_b_collar01
+    400004: _jtr01t0_body
+    400006: _jtr01t0_body 1
+    400008: _jtr01t0_body 2
+    400010: _jtr01t0_body 3
+    400012: _jtr01t0_body 4
+    400014: _jtr01t0_c_lip_00
+    400016: _jtr01t0_c_lip_10
+    400018: _jtr01t0_c_nose
+    400020: _jtr01t0_cap01
+    400022: _jtr01t0_cap02
+    400024: _jtr01t0_eye_l
+    400026: _jtr01t0_eye_l 1
+    400028: _jtr01t0_eye_l_Layer_2
+    400030: _jtr01t0_eye_r
+    400032: _jtr01t0_eye_r 1
+    400034: _jtr01t0_eye_r_Layer_2
+    400036: _jtr01t0_eyebone01_l
+    400038: _jtr01t0_eyebone01_r
+    400040: _jtr01t0_eyebone02_l
+    400042: _jtr01t0_eyebone02_r
+    400044: _jtr01t0_face
+    400046: _jtr01t0_face 1
+    400048: _jtr01t0_face 2
+    400050: _jtr01t0_face 3
+    400052: _jtr01t0_face 4
+    400054: _jtr01t0_face01
+    400056: _jtr01t0_face02
+    400058: _jtr01t0_hair01
+    400060: _jtr01t0_hair02
+    400062: _jtr01t0_head
+    400064: _jtr01t0_jaw
+    400066: _jtr01t0_l_arm_bone01
+    400068: _jtr01t0_l_arm_bone02
+    400070: _jtr01t0_l_arm_bone04
+    400072: _jtr01t0_l_arm_bone05
+    400074: _jtr01t0_l_arm_bone06
+    400076: _jtr01t0_l_calf
+    400078: _jtr01t0_l_cheek_01
+    400080: _jtr01t0_l_cheek_02
+    400082: _jtr01t0_l_cheek_03
+    400084: _jtr01t0_l_clavicle
+    400086: _jtr01t0_l_clavicle_bone
+    400088: _jtr01t0_l_cloth01
+    400090: _jtr01t0_l_cloth02
+    400092: _jtr01t0_l_cloth03
+    400094: _jtr01t0_l_cloth04
+    400096: _jtr01t0_l_cloth05
+    400098: _jtr01t0_l_cloth06
+    400100: _jtr01t0_l_cloth07
+    400102: _jtr01t0_l_collar01
+    400104: _jtr01t0_l_collar02
+    400106: _jtr01t0_l_collar04
+    400108: _jtr01t0_l_eye_01
+    400110: _jtr01t0_l_eye_02
+    400112: _jtr01t0_l_eye_03
+    400114: _jtr01t0_l_eye_04
+    400116: _jtr01t0_l_eye_05
+    400118: _jtr01t0_l_eye_06
+    400120: _jtr01t0_l_eye_07
+    400122: _jtr01t0_l_eye_08
+    400124: _jtr01t0_l_finger0
+    400126: _jtr01t0_l_finger01
+    400128: _jtr01t0_l_finger02
+    400130: _jtr01t0_l_finger1
+    400132: _jtr01t0_l_finger11
+    400134: _jtr01t0_l_finger12
+    400136: _jtr01t0_l_finger2
+    400138: _jtr01t0_l_finger21
+    400140: _jtr01t0_l_finger22
+    400142: _jtr01t0_l_finger3
+    400144: _jtr01t0_l_finger31
+    400146: _jtr01t0_l_finger32
+    400148: _jtr01t0_l_finger4
+    400150: _jtr01t0_l_finger41
+    400152: _jtr01t0_l_finger42
+    400154: _jtr01t0_l_foot
+    400156: _jtr01t0_l_forearm
+    400158: _jtr01t0_l_hand
+    400160: _jtr01t0_l_lip_01
+    400162: _jtr01t0_l_lip_02
+    400164: _jtr01t0_l_lip_03
+    400166: _jtr01t0_l_lip_04
+    400168: _jtr01t0_l_lip_05
+    400170: _jtr01t0_l_lip_06
+    400172: _jtr01t0_l_lip_07
+    400174: _jtr01t0_l_mayu_01
+    400176: _jtr01t0_l_mayu_02
+    400178: _jtr01t0_l_mayu_03
+    400180: _jtr01t0_l_mayu_04
+    400182: _jtr01t0_l_mayu_05
+    400184: _jtr01t0_l_pocket
+    400186: _jtr01t0_l_thigh
+    400188: _jtr01t0_l_toe0
+    400190: _jtr01t0_l_upperarm
+    400192: _jtr01t0_l_wep_d
+    400194: _jtr01t0_lower_teeth
+    400196: _jtr01t0_lower_teeth 1
+    400198: _jtr01t0_neck
+    400200: _jtr01t0_pelvis
+    400202: _jtr01t0_r_arm_bone01
+    400204: _jtr01t0_r_arm_bone02
+    400206: _jtr01t0_r_arm_bone04
+    400208: _jtr01t0_r_arm_bone05
+    400210: _jtr01t0_r_arm_bone06
+    400212: _jtr01t0_r_calf
+    400214: _jtr01t0_r_cheek_01
+    400216: _jtr01t0_r_cheek_02
+    400218: _jtr01t0_r_cheek_03
+    400220: _jtr01t0_r_clavicle
+    400222: _jtr01t0_r_clavicle_bone
+    400224: _jtr01t0_r_cloth01
+    400226: _jtr01t0_r_cloth02
+    400228: _jtr01t0_r_cloth03
+    400230: _jtr01t0_r_cloth04
+    400232: _jtr01t0_r_cloth05
+    400234: _jtr01t0_r_cloth06
+    400236: _jtr01t0_r_cloth07
+    400238: _jtr01t0_r_collar01
+    400240: _jtr01t0_r_eye_01
+    400242: _jtr01t0_r_eye_02
+    400244: _jtr01t0_r_eye_03
+    400246: _jtr01t0_r_eye_04
+    400248: _jtr01t0_r_eye_05
+    400250: _jtr01t0_r_eye_06
+    400252: _jtr01t0_r_eye_07
+    400254: _jtr01t0_r_eye_08
+    400256: _jtr01t0_r_finger0
+    400258: _jtr01t0_r_finger01
+    400260: _jtr01t0_r_finger02
+    400262: _jtr01t0_r_finger1
+    400264: _jtr01t0_r_finger11
+    400266: _jtr01t0_r_finger12
+    400268: _jtr01t0_r_finger2
+    400270: _jtr01t0_r_finger21
+    400272: _jtr01t0_r_finger22
+    400274: _jtr01t0_r_finger3
+    400276: _jtr01t0_r_finger31
+    400278: _jtr01t0_r_finger32
+    400280: _jtr01t0_r_finger4
+    400282: _jtr01t0_r_finger41
+    400284: _jtr01t0_r_finger42
+    400286: _jtr01t0_r_foot
+    400288: _jtr01t0_r_forearm
+    400290: _jtr01t0_r_hand
+    400292: _jtr01t0_r_lip_01
+    400294: _jtr01t0_r_lip_02
+    400296: _jtr01t0_r_lip_03
+    400298: _jtr01t0_r_lip_04
+    400300: _jtr01t0_r_lip_05
+    400302: _jtr01t0_r_lip_06
+    400304: _jtr01t0_r_lip_07
+    400306: _jtr01t0_r_mayu_01
+    400308: _jtr01t0_r_mayu_02
+    400310: _jtr01t0_r_mayu_03
+    400312: _jtr01t0_r_mayu_04
+    400314: _jtr01t0_r_mayu_05
+    400316: _jtr01t0_r_pocket
+    400318: _jtr01t0_r_thigh
+    400320: _jtr01t0_r_toe0
+    400322: _jtr01t0_r_upperarm
+    400324: _jtr01t0_r_wep_d
+    400326: _jtr01t0_spine
+    400328: _jtr01t0_spine1
+    400330: _jtr01t0_spine2
+    400332: _jtr01t0_tongue
+    400334: _jtr01t0_tongue 1
+    400336: _jtr01t0_tongue01
+    400338: _jtr01t0_trall
+    400340: _jtr01t0_upper_teeth
+    400342: _jtr01t0_upper_teeth 1
+    400344: EnvironmentAmbientLight
+    400346: //RootNode
+    2100000: Material__25
+    2100002: Material__26
+    2100004: Material__30
+    2100006: Material__31
+    2100008: _jtr01t0_eye_l
+    2100010: Material__42
+    2100012: _jtr01t0_eye_r
+    2100014: Material__38
+    2100016: Material__29
+    2100018: Material__28
+    2100020: Material__36
+    2100022: Material__27
+    2100024: Material__33
+    2100026: Material__34
+    2100028: Material__32
+    4300000: _jtr01t0_body
+    4300002: _jtr01t0_body
+    4300004: _jtr01t0_body
+    4300006: _jtr01t0_body
+    4300008: _jtr01t0_eye_l
+    4300010: _jtr01t0_eye_l_Layer_2
+    4300012: _jtr01t0_eye_r
+    4300014: _jtr01t0_eye_r_Layer_2
+    4300016: _jtr01t0_face
+    4300018: _jtr01t0_face
+    4300020: _jtr01t0_face
+    4300022: _jtr01t0_face
+    4300024: _jtr01t0_lower_teeth
+    4300026: _jtr01t0_upper_teeth
+    4300028: _jtr01t0_tongue
+    9500000: //RootNode
+    13700000: _jtr01t0_body
+    13700002: _jtr01t0_body 1
+    13700004: _jtr01t0_body 2
+    13700006: _jtr01t0_body 3
+    13700008: _jtr01t0_eye_l
+    13700010: _jtr01t0_eye_l_Layer_2
+    13700012: _jtr01t0_eye_r
+    13700014: _jtr01t0_eye_r_Layer_2
+    13700016: _jtr01t0_face
+    13700018: _jtr01t0_face 1
+    13700020: _jtr01t0_face 2
+    13700022: _jtr01t0_face 3
+    13700024: _jtr01t0_lower_teeth
+    13700026: _jtr01t0_tongue
+    13700028: _jtr01t0_upper_teeth
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
