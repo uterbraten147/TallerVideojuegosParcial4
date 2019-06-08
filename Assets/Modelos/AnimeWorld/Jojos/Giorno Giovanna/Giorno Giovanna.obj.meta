@@ -65,7 +65,57 @@ ModelImporter:
     4300014: 5grn01t0_lower_teeth
     4300016: 5grn01t0_tongue
     4300018: 5grn01t0_upper_teeth
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5grn01t0_bodyMat
+    second: {fileID: 2100000, guid: 2d43a084febc02348bb09e093a9ddb48, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5grn01t0_eye_lMat
+    second: {fileID: 2100000, guid: 1296804f7b6334340b5120465f502aeb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5grn01t0_eye_rMat
+    second: {fileID: 2100000, guid: a23a45eadd6e22744895bcae065f1176, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5grn01t0_faceMat
+    second: {fileID: 2100000, guid: 025bcbbed8d602442a930c71d74b6654, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5grn01t0_hair1Mat
+    second: {fileID: 2100000, guid: 11b1a2b4737accc43be5f3609dadcbbc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5grn01t0_hair2Mat
+    second: {fileID: 2100000, guid: 8d3f1f63fe76e2f43914759a48dfe7af, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5grn01t0_hair3Mat
+    second: {fileID: 2100000, guid: 207c68b0483237d4fb5c28e932510fa2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5grn01t0_lower_teethMat
+    second: {fileID: 2100000, guid: 4e78d55f7a01dad4ebef0f222929cb29, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5grn01t0_tongueMat
+    second: {fileID: 2100000, guid: 57e91d0f28217b1429ea92b3b8b0fe6b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5grn01t0_upper_teethMat
+    second: {fileID: 2100000, guid: d9468928caaa0814ead2228a30ba2845, type: 2}
   materials:
     importMaterials: 1
     materialName: 0

@@ -47,7 +47,42 @@ ModelImporter:
     4300008: 5kcr01t0_lower_teeth
     4300010: 5kcr01t0_tongue
     4300012: 5kcr01t0_upper_teeth
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5kcr01t0_bodyMat
+    second: {fileID: 2100000, guid: 3d7410507c3d1b646b4e9cf4675cf46c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5kcr01t0_eye_lMat
+    second: {fileID: 2100000, guid: 1718fa9872da9464ca6a17c4feb959b3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5kcr01t0_eye_rMat
+    second: {fileID: 2100000, guid: 89fd09def0bd9ac4f9cad24ba57477ac, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5kcr01t0_faceMat
+    second: {fileID: 2100000, guid: e5a06fa6514244e478a5819a9323fb6c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5kcr01t0_lower_teethMat
+    second: {fileID: 2100000, guid: d0eecbb211a5f4d4d8bb77265fb5d94a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5kcr01t0_tongueMat
+    second: {fileID: 2100000, guid: f2e0c1531da63ab4e985bdca59c772bb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5kcr01t0_upper_teethMat
+    second: {fileID: 2100000, guid: 7e7b86c772c34fa49b3bade70593e16c, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
@@ -78,7 +113,7 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 1
+    globalScale: 0.02
     meshCompression: 0
     addColliders: 0
     useSRGBMaterialColor: 1
