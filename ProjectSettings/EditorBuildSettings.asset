@@ -9,33 +9,33 @@ EditorBuildSettings:
     path: 
     guid: 00000000000000000000000000000000
   - enabled: 1
-    path: Assets/Scenes/MainMenu.unity
+    path: Assets/_Proyect/Scenes/MainMenu.unity
     guid: a0e04b96dca69044e9addff510829a8c
   - enabled: 1
-    path: Assets/Scenes/Lobby.unity
+    path: Assets/_Proyect/Scenes/Lobby.unity
     guid: a5b4f89bed312e541b9b4ed6ac4a0d73
   - enabled: 1
-    path: Assets/Scenes/BobLoadScene.unity
+    path: Assets/_Proyect/Scenes/BobLoadScene.unity
     guid: 887699f3dcc458545a2481fc024f4182
   - enabled: 1
-    path: Assets/Scenes/ShrekLoadScene.unity
+    path: Assets/_Proyect/Scenes/ShrekLoadScene.unity
     guid: 744a89bf1f28fbb4baea4f4a52689127
   - enabled: 1
-    path: Assets/Scenes/AnimeWorldLoadScene.unity
+    path: Assets/_Proyect/Scenes/AnimeWorldLoadScene.unity
     guid: dcfa1d176ede4e441932739b7efc6798
   - enabled: 1
-    path: Assets/Scenes/CartoonLoadScene.unity
+    path: Assets/_Proyect/Scenes/CartoonLoadScene.unity
     guid: 0470181e4c7a159439acecaec1438662
   - enabled: 1
-    path: Assets/Scenes/SpongeBobWorld.unity
+    path: Assets/_Proyect/Scenes/SpongeBobWorld.unity
     guid: b512beb69072db044a7c14837bae52f2
   - enabled: 1
-    path: Assets/Scenes/ShrekWorld.unity
+    path: Assets/_Proyect/Scenes/ShrekWorld.unity
     guid: b4a7abe703ee06844b77eb47b2a6abc3
   - enabled: 1
-    path: Assets/Scenes/AnimeWorld.unity
+    path: Assets/_Proyect/Scenes/AnimeWorld.unity
     guid: d3ea3399fdaf94443a96ee5646b7ee69
   - enabled: 1
-    path: Assets/Scenes/CartoonWorld.unity
+    path: Assets/_Proyect/Scenes/CartoonWorld.unity
     guid: a298e7435712ed14d978c3dda5a3731f
   m_configObjects: {}
