@@ -173,6 +173,7 @@
     <None Include="Assets\_Proyect\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
     <None Include="Assets\_Proyect\Standard Assets\Effects\ToonShading\Shaders\ToonBasic.shader" />
     <None Include="Assets\_Proyect\Standard Assets\Prototyping\Shaders\WorldCoordDiffuse.shader" />
+    <None Include="Assets\_Proyect\Scripts\Fernando\Animations Readme.txt" />
     <None Include="Assets\_Proyect\Standard Assets\Environment\Water (Basic)\DO_NOT_WORK_IN_VR.txt" />
     <None Include="Assets\_Proyect\Standard Assets\Effects\TessellationShaders\Shaders\BumpedSpecularSmooth.shader" />
     <None Include="Assets\_Proyect\Standard Assets\Effects\Projectors\Guidelines.txt" />
