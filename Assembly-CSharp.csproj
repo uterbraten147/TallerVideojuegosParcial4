@@ -71,6 +71,7 @@
     <Compile Include="Assets\_Proyect\Scripts\CamaraScript.cs" />
     <Compile Include="Assets\_Proyect\Scripts\Fernando\CamaraMov.cs" />
     <Compile Include="Assets\_Proyect\Scripts\Fernando\CharacterMovment.cs" />
+    <Compile Include="Assets\_Proyect\Scripts\Menus\creadorPersonajeVilla.cs" />
     <Compile Include="Assets\_Proyect\Scripts\Menus\goToWorld.cs" />
     <Compile Include="Assets\_Proyect\Scripts\Menus\LoadScreen.cs" />
     <Compile Include="Assets\_Proyect\Standard Assets\2D\Scripts\Camera2DFollow.cs" />
