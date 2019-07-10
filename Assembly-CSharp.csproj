@@ -171,7 +171,6 @@
     <Compile Include="Assets\_Proyect\Standard Assets\Vehicles\Car\Scripts\WheelEffects.cs" />
     <None Include="Assets\_Proyect\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
     <None Include="Assets\_Proyect\Standard Assets\Effects\ToonShading\Shaders\ToonBasic.shader" />
-    <None Include="Assets\UMA\InternalDataStore\InGame\Resources\PlaceholderAssets\PlaceholderAssetsREADME.txt" />
     <None Include="Assets\_Proyect\Standard Assets\Prototyping\Shaders\WorldCoordDiffuse.shader" />
     <None Include="Assets\_Proyect\Standard Assets\Environment\Water (Basic)\DO_NOT_WORK_IN_VR.txt" />
     <None Include="Assets\_Proyect\Standard Assets\Effects\TessellationShaders\Shaders\BumpedSpecularSmooth.shader" />
@@ -195,12 +194,10 @@
     <None Include="Assets\_Proyect\Standard Assets\Effects\ToonShading\Shaders\ToonLit.shader" />
     <None Include="Assets\_Proyect\Standard Assets\Effects\Projectors\Shaders\ProjectorLight.shader" />
     <None Include="Assets\_Proyect\Standard Assets\Environment\Water\Water\Shaders\FXWaterPro.shader" />
-    <None Include="Assets\UMA\InternalDataStore\AssetVersion.xml" />
     <None Include="Assets\_Proyect\Standard Assets\Vehicles\Car\CarGuidelines.txt" />
     <None Include="Assets\_Proyect\Standard Assets\Effects\Projectors\Shaders\ProjectorMultiply.shader" />
     <None Include="Assets\_Proyect\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
     <None Include="Assets\_Proyect\Modelos\AnimeWorld\Evangelion\PlayStation 2 - Evangelion Jo - Rei Ayanami\Readme.txt" />
-    <None Include="Assets\UMA\Whats New in UMA 28.txt" />
     <None Include="Assets\_Proyect\Standard Assets\Cameras\CameraGuidelines.txt" />
     <None Include="Assets\_Proyect\Modelos\AnimeWorld\Evangelion\PlayStation 2 - Evangelion Jo - Shinji Ikari\Readme.txt" />
     <None Include="Assets\_Proyect\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
@@ -209,7 +206,6 @@
     <None Include="Assets\_Proyect\Standard Assets\Characters\RollerBall\RollerBallGuidelines.txt" />
     <None Include="Assets\_Proyect\Standard Assets\ParticleSystems\Shaders\PriorityParticleAdd.shader" />
     <None Include="Assets\_Proyect\Standard Assets\Effects\TessellationShaders\Shaders\BumpedSpecularDisplacement.shader" />
-    <None Include="Assets\UMA\Upgrading From Previous Versions.txt" />
     <None Include="Assets\_Proyect\SampleScenes\Shaders\Skybox-Procedural.shader" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:/Users/Alumno/Documents/GitHub/TallerVideojuegosParcial4/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
@@ -781,28 +777,6 @@
     <Reference Include="System.Xml.Serialization">
       <HintPath>C:/Program Files/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Serialization.dll</HintPath>
     </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="UMA_Core.csproj">
-      <Project>{22C1C177-154A-5A0C-9597-CB1591D011CF}</Project>
-      <Name>UMA_Core</Name>
-    </ProjectReference>
-    <ProjectReference Include="UMA_Examples.csproj">
-      <Project>{D6796335-23DA-5BD6-027B-831929F3C02B}</Project>
-      <Name>UMA_Examples</Name>
-    </ProjectReference>
-    <ProjectReference Include="UMA_Content.csproj">
-      <Project>{DD82E6E1-B444-A4E5-B5EB-274B8107DF0A}</Project>
-      <Name>UMA_Content</Name>
-    </ProjectReference>
-    <ProjectReference Include="UMA_Core_Editor.csproj">
-      <Project>{65861088-5050-7E9E-63FF-495BDF119730}</Project>
-      <Name>UMA_Core_Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="UMA_Examples_Editor.csproj">
-      <Project>{BDAECD40-73FB-5CD2-AA69-37E382DD135E}</Project>
-      <Name>UMA_Examples_Editor</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
