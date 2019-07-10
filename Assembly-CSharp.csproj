@@ -87,10 +87,6 @@
     <Compile Include="Assets\_Proyect\Standard Assets\Cameras\Scripts\PivotBasedCameraRig.cs" />
     <Compile Include="Assets\_Proyect\Standard Assets\Cameras\Scripts\ProtectCameraFromWallClip.cs" />
     <Compile Include="Assets\_Proyect\Standard Assets\Cameras\Scripts\TargetFieldOfView.cs" />
-    <Compile Include="Assets\_Proyect\Standard Assets\Characters\FirstPersonCharacter\Scripts\FirstPersonController.cs" />
-    <Compile Include="Assets\_Proyect\Standard Assets\Characters\FirstPersonCharacter\Scripts\HeadBob.cs" />
-    <Compile Include="Assets\_Proyect\Standard Assets\Characters\FirstPersonCharacter\Scripts\MouseLook.cs" />
-    <Compile Include="Assets\_Proyect\Standard Assets\Characters\FirstPersonCharacter\Scripts\RigidbodyFirstPersonController.cs" />
     <Compile Include="Assets\_Proyect\Standard Assets\Characters\RollerBall\Scripts\Ball.cs" />
     <Compile Include="Assets\_Proyect\Standard Assets\Characters\RollerBall\Scripts\BallUserControl.cs" />
     <Compile Include="Assets\_Proyect\Standard Assets\Characters\ThirdPersonCharacter\Scripts\AICharacterControl.cs" />
@@ -171,6 +167,8 @@
     <Compile Include="Assets\_Proyect\Standard Assets\Vehicles\Car\Scripts\WheelEffects.cs" />
     <Compile Include="Assets\Low Poly Ultimate Pack\- Scripts\CameraSmooth.cs" />
     <Compile Include="Assets\Low Poly Ultimate Pack\- Scripts\Move.cs" />
+    <Compile Include="Assets\Modelos\AnimeWorld\Scripts\CamaraController.cs" />
+    <Compile Include="Assets\Modelos\AnimeWorld\Scripts\CharacterController.cs" />
     <None Include="Assets\_Proyect\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
     <None Include="Assets\_Proyect\Standard Assets\Effects\ToonShading\Shaders\ToonBasic.shader" />
     <None Include="Assets\_Proyect\Standard Assets\Prototyping\Shaders\WorldCoordDiffuse.shader" />
@@ -203,7 +201,6 @@
     <None Include="Assets\_Proyect\Modelos\AnimeWorld\Evangelion\PlayStation 2 - Evangelion Jo - Rei Ayanami\Readme.txt" />
     <None Include="Assets\_Proyect\Standard Assets\Cameras\CameraGuidelines.txt" />
     <None Include="Assets\_Proyect\Modelos\AnimeWorld\Evangelion\PlayStation 2 - Evangelion Jo - Shinji Ikari\Readme.txt" />
-    <None Include="Assets\_Proyect\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
     <None Include="Assets\_Proyect\Standard Assets\Environment\Water\Water4\Shaders\WaterInclude.cginc" />
     <None Include="Assets\_Proyect\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Advanced.shader" />
     <None Include="Assets\_Proyect\Standard Assets\Characters\RollerBall\RollerBallGuidelines.txt" />
