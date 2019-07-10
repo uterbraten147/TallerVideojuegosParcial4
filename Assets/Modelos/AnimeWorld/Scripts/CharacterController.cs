@@ -25,7 +25,7 @@ public class CharacterController : MonoBehaviour
     {
         float hor = Input.GetAxis("Horizontal");
         float ver = Input.GetAxis("Vertical");
-        animator.SetFloat("Speed", Mathf.Abs(ver));
+        animator.SetFloat("Speed", ver);
         Vector3 playermove = new Vector3(hor, 0, ver) * speed * Time.deltaTime;
         transform.Translate(playermove,Space.Self);
     }
