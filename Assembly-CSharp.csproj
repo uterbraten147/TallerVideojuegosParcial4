@@ -69,8 +69,6 @@
     <Compile Include="Assets\_Proyect\SampleScenes\Scripts\PlaceTargetWithMouse.cs" />
     <Compile Include="Assets\_Proyect\SampleScenes\Scripts\SlowMoButton.cs" />
     <Compile Include="Assets\_Proyect\Scripts\CamaraScript.cs" />
-    <Compile Include="Assets\_Proyect\Scripts\Fernando\CamaraMov.cs" />
-    <Compile Include="Assets\_Proyect\Scripts\Fernando\CharacterMovment.cs" />
     <Compile Include="Assets\_Proyect\Scripts\Menus\goToWorld.cs" />
     <Compile Include="Assets\_Proyect\Scripts\Menus\LoadScreen.cs" />
     <Compile Include="Assets\_Proyect\Standard Assets\2D\Scripts\Camera2DFollow.cs" />
@@ -173,7 +171,6 @@
     <None Include="Assets\_Proyect\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
     <None Include="Assets\_Proyect\Standard Assets\Effects\ToonShading\Shaders\ToonBasic.shader" />
     <None Include="Assets\_Proyect\Standard Assets\Prototyping\Shaders\WorldCoordDiffuse.shader" />
-    <None Include="Assets\_Proyect\Scripts\Fernando\Animations Readme.txt" />
     <None Include="Assets\_Proyect\Standard Assets\Environment\Water (Basic)\DO_NOT_WORK_IN_VR.txt" />
     <None Include="Assets\_Proyect\Standard Assets\Effects\TessellationShaders\Shaders\BumpedSpecularSmooth.shader" />
     <None Include="Assets\_Proyect\Standard Assets\Effects\Projectors\Guidelines.txt" />
