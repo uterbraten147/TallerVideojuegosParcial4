@@ -28,5 +28,8 @@ public class CharacterController : MonoBehaviour
         animator.SetFloat("Speed", ver);
         Vector3 playermove = new Vector3(hor, 0, ver) * speed * Time.deltaTime;
         transform.Translate(playermove,Space.Self);
+
+
+        
     }
 }
