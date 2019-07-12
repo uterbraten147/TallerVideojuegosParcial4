@@ -21,10 +21,17 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 947
+<<<<<<< HEAD
   m_MinSize: {x: 583, y: 498}
   m_MaxSize: {x: 14004, y: 14048}
   vertical: 0
   controlID: 1572
+=======
+  m_MinSize: {x: 681, y: 498}
+  m_MaxSize: {x: 14004, y: 14048}
+  vertical: 0
+  controlID: 130
+>>>>>>> Villa
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -46,9 +53,15 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 1467
     y: 686
     width: 451
+=======
+    x: 1490
+    y: 686
+    width: 428
+>>>>>>> Villa
     height: 314
   m_PersistentViewDataDictionary: {fileID: 0}
   m_MaximizeOnPlay: 1
@@ -61,10 +74,17 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
+<<<<<<< HEAD
     m_HBaseRangeMin: -225.5
     m_HBaseRangeMax: 225.5
     m_VBaseRangeMin: -127
     m_VBaseRangeMax: 127
+=======
+    m_HBaseRangeMin: -214
+    m_HBaseRangeMax: 214
+    m_VBaseRangeMin: -120.5
+    m_VBaseRangeMax: 120.5
+>>>>>>> Villa
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -82,25 +102,43 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 17
+<<<<<<< HEAD
       width: 451
       height: 297
     m_Scale: {x: 1.0609, y: 1.0609}
     m_Translation: {x: 225.5, y: 148.5}
+=======
+      width: 428
+      height: 297
+    m_Scale: {x: 1, y: 1}
+    m_Translation: {x: 214, y: 148.5}
+>>>>>>> Villa
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
+<<<<<<< HEAD
       x: -212.55539
       y: -139.9755
       width: 425.11078
       height: 279.951
+=======
+      x: -214
+      y: -148.5
+      width: 428
+      height: 297
+>>>>>>> Villa
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_TargetTexture: {fileID: 0}
   m_CurrentColorSpace: 0
+<<<<<<< HEAD
   m_LastWindowPixelSize: {x: 451, y: 314}
+=======
+  m_LastWindowPixelSize: {x: 428, y: 314}
+>>>>>>> Villa
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000100000100
@@ -124,12 +162,21 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
     width: 1467
     height: 947
   m_MinSize: {x: 306, y: 498}
   m_MaxSize: {x: 10002, y: 14048}
   vertical: 1
   controlID: 1573
+=======
+    width: 1490
+    height: 947
+  m_MinSize: {x: 404, y: 498}
+  m_MaxSize: {x: 10002, y: 14048}
+  vertical: 1
+  controlID: 131
+>>>>>>> Villa
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -149,12 +196,21 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
     width: 1467
     height: 528
   m_MinSize: {x: 306, y: 224}
   m_MaxSize: {x: 8006, y: 4024}
   vertical: 0
   controlID: 1553
+=======
+    width: 1490
+    height: 529
+  m_MinSize: {x: 404, y: 224}
+  m_MaxSize: {x: 8004, y: 4024}
+  vertical: 0
+  controlID: 132
+>>>>>>> Villa
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -172,10 +228,17 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
     width: 586
     height: 528
   m_MinSize: {x: 202, y: 224}
   m_MaxSize: {x: 4002, y: 4024}
+=======
+    width: 474
+    height: 529
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+>>>>>>> Villa
   m_ActualView: {fileID: 6}
   m_Panes:
   - {fileID: 6}
@@ -204,15 +267,24 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 73
+<<<<<<< HEAD
     width: 584
     height: 508
+=======
+    width: 472
+    height: 509
+>>>>>>> Villa
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
+<<<<<<< HEAD
       m_ExpandedIDs: 42a9f9ffd053faff3668faff1a69faff544d0100504e0100
+=======
+      m_ExpandedIDs: 667ffcffe07ffcff7e81fcffd684fcff
+>>>>>>> Villa
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -251,6 +323,7 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 586
     y: 0
     width: 881
@@ -258,6 +331,15 @@ MonoBehaviour:
   m_MinSize: {x: 104, y: 124}
   m_MaxSize: {x: 4004, y: 4024}
   m_ActualView: {fileID: 10}
+=======
+    x: 474
+    y: 0
+    width: 1016
+    height: 529
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 8}
+>>>>>>> Villa
   m_Panes:
   - {fileID: 8}
   - {fileID: 9}
@@ -284,10 +366,17 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 586
     y: 73
     width: 877
     height: 508
+=======
+    x: 474
+    y: 73
+    width: 1012
+    height: 509
+>>>>>>> Villa
   m_PersistentViewDataDictionary: {fileID: 0}
   m_WindowGUID: f91060b4fb203b1418b8d026aaa3c3ec
   m_SceneLighting: 1
@@ -295,9 +384,15 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
+<<<<<<< HEAD
     m_Target: {x: 0.5249256, y: 1.4877859, z: -2.0252051}
     speed: 2
     m_Value: {x: 0.5249256, y: 1.4877859, z: -2.0252051}
+=======
+    m_Target: {x: -15.997143, y: -2.9312303, z: -23.971394}
+    speed: 2
+    m_Value: {x: -15.997143, y: -2.9312303, z: -23.971394}
+>>>>>>> Villa
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -325,6 +420,7 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
+<<<<<<< HEAD
     m_Target: {x: 0.0074302726, y: 0.9794764, z: -0.19804022, w: 0.03675633}
     speed: 2
     m_Value: {x: 0.0074302726, y: 0.9794764, z: -0.19804022, w: 0.03675633}
@@ -332,6 +428,15 @@ MonoBehaviour:
     m_Target: 1.7976327
     speed: 2
     m_Value: 1.7976327
+=======
+    m_Target: {x: 0.018354638, y: -0.96333015, z: 0.0683276, w: 0.25882342}
+    speed: 2
+    m_Value: {x: 0.018354638, y: -0.96333015, z: 0.0683276, w: 0.25882342}
+  m_Size:
+    m_Target: 39.946423
+    speed: 2
+    m_Value: 39.946423
+>>>>>>> Villa
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -364,10 +469,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 345
+    x: 474
     y: 73
-    width: 740
-    height: 335
+    width: 1012
+    height: 509
   m_PersistentViewDataDictionary: {fileID: 0}
 --- !u!114 &10
 MonoBehaviour:
@@ -445,11 +550,19 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
+<<<<<<< HEAD
     y: 528
     width: 1467
     height: 419
   m_MinSize: {x: 230, y: 250}
   m_MaxSize: {x: 10000, y: 10000}
+=======
+    y: 529
+    width: 1490
+    height: 418
+  m_MinSize: {x: 232, y: 274}
+  m_MaxSize: {x: 10002, y: 10024}
+>>>>>>> Villa
   m_ActualView: {fileID: 12}
   m_Panes:
   - {fileID: 12}
@@ -479,12 +592,18 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
+<<<<<<< HEAD
     y: 601
     width: 1465
     height: 399
+=======
+    y: 602
+    width: 1488
+    height: 398
+>>>>>>> Villa
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SearchFilter:
-    m_NameFilter: 
+    m_NameFilter: uma_dc
     m_ClassNames: []
     m_AssetLabels: []
     m_AssetBundleNames: []
@@ -495,20 +614,35 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
+<<<<<<< HEAD
     - Assets/Modelos/AnimeWorld/Scripts
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
   - Assets/Modelos/AnimeWorld/Scripts
+=======
+    - Assets/UMA
+  m_ViewMode: 1
+  m_StartGridSize: 16
+  m_LastFolders:
+  - Assets/UMA
+>>>>>>> Villa
   m_LastFoldersGridSize: 16
   m_LastProjectPath: C:\Users\Alumno\Documents\GitHub\TallerVideojuegosParcial4
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
+<<<<<<< HEAD
     scrollPos: {x: 0, y: 1826}
     m_SelectedIDs: b0480100
     m_LastClickedID: 84144
     m_ExpandedIDs: 00000000163f0100b63f0100204001005e4001001241010080410100e44101001a4201007442010026430100ba43010022440100304401003644010050440100c644010080450100b645010050460100fa4601005e47010092470100cc4701004049010068490100e2490100ca4a0100464b01006a4b0100724b0100b84b0100e64c010000ca9a3b
+=======
+    scrollPos: {x: 0, y: 1475}
+    m_SelectedIDs: 
+    m_LastClickedID: 0
+    m_ExpandedIDs: 00000000bcd400005ad500007cd50000d4d5000016d600004ed6000064d6000092d60000e8d6000034d7000084d7000092d70000c8d7000056d80000c8d8000052d9000072d900009ad90000d2d9000050da000066da0000a0da00006cdb00007edb00009edb00003edc000000ca9a3b
+>>>>>>> Villa
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -536,7 +670,11 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
+<<<<<<< HEAD
     m_ExpandedIDs: 00000000163f0100b63f0100204001005e4001001241010080410100e44101001a4201007442010026430100ba43010022440100304401003644010050440100c6440100b645010050460100fa4601005e47010092470100cc4701004049010068490100e2490100ca4a0100464b0100724b0100b84b0100e64c010000ca9a3b
+=======
+    m_ExpandedIDs: 00000000bcd400005ad500007cd50000d4d5000016d600004ed6000064d6000092d60000e8d6000034d7000084d7000092d70000c8d7000056d80000c8d8000052d9000072d900009ad9000050da000066da0000a0da00006cdb00007edb00009edb00003edc0000
+>>>>>>> Villa
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -561,8 +699,13 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
+<<<<<<< HEAD
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
+=======
+    m_SelectedInstanceIDs: 4ebbfbff
+    m_LastClickedInstanceID: -279730
+>>>>>>> Villa
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c623000060880000d634000000000000
     m_RenameOverlay:
@@ -619,7 +762,11 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_LockTracker:
     m_IsLocked: 0
+<<<<<<< HEAD
   m_LastSelectedObjectID: 85584
+=======
+  m_LastSelectedObjectID: 64524
+>>>>>>> Villa
 --- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -753,14 +900,24 @@ MonoBehaviour:
   - {fileID: 21}
   m_Position:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 1467
     y: 0
     width: 453
+=======
+    x: 1490
+    y: 0
+    width: 430
+>>>>>>> Villa
     height: 947
   m_MinSize: {x: 277, y: 298}
   m_MaxSize: {x: 4002, y: 8048}
   vertical: 1
+<<<<<<< HEAD
   controlID: 1531
+=======
+  controlID: 26
+>>>>>>> Villa
 --- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -778,7 +935,11 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
     width: 453
+=======
+    width: 430
+>>>>>>> Villa
     height: 613
   m_MinSize: {x: 275, y: 50}
   m_MaxSize: {x: 4000, y: 4000}
@@ -809,9 +970,15 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 1467
     y: 73
     width: 451
+=======
+    x: 1490
+    y: 73
+    width: 428
+>>>>>>> Villa
     height: 593
   m_PersistentViewDataDictionary: {fileID: 0}
   m_ObjectsLockedBeforeSerialization: []
@@ -866,7 +1033,11 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 613
+<<<<<<< HEAD
     width: 453
+=======
+    width: 430
+>>>>>>> Villa
     height: 334
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 4000, y: 4000}

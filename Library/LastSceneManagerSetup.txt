@@ -1,4 +1,8 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/_Proyect/Scenes/AnimeWorld.unity
+=======
+- path: Assets/SoftmindCharacters/Scenes/SampleScene.unity
+>>>>>>> Villa
   isLoaded: 1
   isActive: 1
