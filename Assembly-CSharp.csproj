@@ -69,6 +69,8 @@
     <Compile Include="Assets\_Proyect\SampleScenes\Scripts\PlaceTargetWithMouse.cs" />
     <Compile Include="Assets\_Proyect\SampleScenes\Scripts\SlowMoButton.cs" />
     <Compile Include="Assets\_Proyect\Scripts\CamaraScript.cs" />
+    <Compile Include="Assets\_Proyect\Scripts\Hector\Bob_Movement.cs" />
+    <Compile Include="Assets\_Proyect\Scripts\Menus\creadorPersonajeVilla.cs" />
     <Compile Include="Assets\_Proyect\Scripts\Menus\goToWorld.cs" />
     <Compile Include="Assets\_Proyect\Scripts\Menus\LoadScreen.cs" />
     <Compile Include="Assets\_Proyect\Standard Assets\2D\Scripts\Camera2DFollow.cs" />
@@ -84,10 +86,6 @@
     <Compile Include="Assets\_Proyect\Standard Assets\Cameras\Scripts\PivotBasedCameraRig.cs" />
     <Compile Include="Assets\_Proyect\Standard Assets\Cameras\Scripts\ProtectCameraFromWallClip.cs" />
     <Compile Include="Assets\_Proyect\Standard Assets\Cameras\Scripts\TargetFieldOfView.cs" />
-    <Compile Include="Assets\_Proyect\Standard Assets\Characters\FirstPersonCharacter\Scripts\FirstPersonController.cs" />
-    <Compile Include="Assets\_Proyect\Standard Assets\Characters\FirstPersonCharacter\Scripts\HeadBob.cs" />
-    <Compile Include="Assets\_Proyect\Standard Assets\Characters\FirstPersonCharacter\Scripts\MouseLook.cs" />
-    <Compile Include="Assets\_Proyect\Standard Assets\Characters\FirstPersonCharacter\Scripts\RigidbodyFirstPersonController.cs" />
     <Compile Include="Assets\_Proyect\Standard Assets\Characters\RollerBall\Scripts\Ball.cs" />
     <Compile Include="Assets\_Proyect\Standard Assets\Characters\RollerBall\Scripts\BallUserControl.cs" />
     <Compile Include="Assets\_Proyect\Standard Assets\Characters\ThirdPersonCharacter\Scripts\AICharacterControl.cs" />
@@ -168,6 +166,8 @@
     <Compile Include="Assets\_Proyect\Standard Assets\Vehicles\Car\Scripts\WheelEffects.cs" />
     <Compile Include="Assets\Low Poly Ultimate Pack\- Scripts\CameraSmooth.cs" />
     <Compile Include="Assets\Low Poly Ultimate Pack\- Scripts\Move.cs" />
+    <Compile Include="Assets\Modelos\AnimeWorld\Scripts\CamaraController.cs" />
+    <Compile Include="Assets\Modelos\AnimeWorld\Scripts\CharacterController.cs" />
     <None Include="Assets\_Proyect\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
     <None Include="Assets\_Proyect\Standard Assets\Effects\ToonShading\Shaders\ToonBasic.shader" />
     <None Include="Assets\_Proyect\Standard Assets\Prototyping\Shaders\WorldCoordDiffuse.shader" />
@@ -199,7 +199,6 @@
     <None Include="Assets\_Proyect\Modelos\AnimeWorld\Evangelion\PlayStation 2 - Evangelion Jo - Rei Ayanami\Readme.txt" />
     <None Include="Assets\_Proyect\Standard Assets\Cameras\CameraGuidelines.txt" />
     <None Include="Assets\_Proyect\Modelos\AnimeWorld\Evangelion\PlayStation 2 - Evangelion Jo - Shinji Ikari\Readme.txt" />
-    <None Include="Assets\_Proyect\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
     <None Include="Assets\_Proyect\Standard Assets\Environment\Water\Water4\Shaders\WaterInclude.cginc" />
     <None Include="Assets\_Proyect\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Advanced.shader" />
     <None Include="Assets\_Proyect\Standard Assets\Characters\RollerBall\RollerBallGuidelines.txt" />
@@ -207,19 +206,19 @@
     <None Include="Assets\_Proyect\Standard Assets\Effects\TessellationShaders\Shaders\BumpedSpecularDisplacement.shader" />
     <None Include="Assets\_Proyect\SampleScenes\Shaders\Skybox-Procedural.shader" />
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/Users/Mr_cu/OneDrive/Documentos/GitHub/Gato/TallerVideojuegosParcial4/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/Users/Alumno/Documents/GitHub/TallerVideojuegosParcial4/TallerVideojuegosParcial4/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>C:/Users/Mr_cu/OneDrive/Documentos/GitHub/Gato/TallerVideojuegosParcial4/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>C:/Users/Alumno/Documents/GitHub/TallerVideojuegosParcial4/TallerVideojuegosParcial4/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>C:/Users/Mr_cu/OneDrive/Documentos/GitHub/Gato/TallerVideojuegosParcial4/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>C:/Users/Alumno/Documents/GitHub/TallerVideojuegosParcial4/TallerVideojuegosParcial4/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Users/Mr_cu/OneDrive/Documentos/GitHub/Gato/TallerVideojuegosParcial4/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/Users/Alumno/Documents/GitHub/TallerVideojuegosParcial4/TallerVideojuegosParcial4/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.DataPrivacy">
-      <HintPath>C:/Users/Mr_cu/OneDrive/Documentos/GitHub/Gato/TallerVideojuegosParcial4/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+      <HintPath>C:/Users/Alumno/Documents/GitHub/TallerVideojuegosParcial4/TallerVideojuegosParcial4/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -416,6 +415,9 @@
     <Reference Include="UnityEngine.Networking">
       <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
     </Reference>
+    <Reference Include="Vuforia.UnityExtensions">
+      <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/VuforiaSupport/Managed/Runtime/Vuforia.UnityExtensions.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEngine.GoogleAudioSpatializer">
       <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll</HintPath>
     </Reference>
@@ -423,13 +425,13 @@
       <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Editor">
-      <HintPath>C:/Users/Mr_cu/OneDrive/Documentos/GitHub/Gato/TallerVideojuegosParcial4/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
+      <HintPath>C:/Users/Alumno/Documents/GitHub/TallerVideojuegosParcial4/TallerVideojuegosParcial4/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
-      <HintPath>C:/Users/Mr_cu/OneDrive/Documentos/GitHub/Gato/TallerVideojuegosParcial4/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
+      <HintPath>C:/Users/Alumno/Documents/GitHub/TallerVideojuegosParcial4/TallerVideojuegosParcial4/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Tracker">
-      <HintPath>C:/Users/Mr_cu/OneDrive/Documentos/GitHub/Gato/TallerVideojuegosParcial4/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
+      <HintPath>C:/Users/Alumno/Documents/GitHub/TallerVideojuegosParcial4/TallerVideojuegosParcial4/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>C:/Program Files/Unity/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
