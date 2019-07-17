@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/_Proyect/Scenes/ShrekWorld.unity
+- path: Assets/_Proyect/Scenes/SpongeBobWorld.unity
   isLoaded: 1
   isActive: 1
