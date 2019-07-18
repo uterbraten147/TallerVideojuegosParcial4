@@ -197,6 +197,7 @@
     <None Include="Assets\_Proyect\Standard Assets\Effects\Projectors\Shaders\ProjectorMultiply.shader" />
     <None Include="Assets\_Proyect\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
     <None Include="Assets\_Proyect\Modelos\AnimeWorld\Evangelion\PlayStation 2 - Evangelion Jo - Rei Ayanami\Readme.txt" />
+    <None Include="Assets\BOXOPHOBIC\Skybox Cubemap Extended\Shaders\Skybox Cubemap Extended.shader" />
     <None Include="Assets\_Proyect\Standard Assets\Cameras\CameraGuidelines.txt" />
     <None Include="Assets\_Proyect\Modelos\AnimeWorld\Evangelion\PlayStation 2 - Evangelion Jo - Shinji Ikari\Readme.txt" />
     <None Include="Assets\_Proyect\Standard Assets\Environment\Water\Water4\Shaders\WaterInclude.cginc" />
