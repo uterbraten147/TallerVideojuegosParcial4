@@ -168,6 +168,7 @@
     <Compile Include="Assets\Low Poly Ultimate Pack\- Scripts\Move.cs" />
     <Compile Include="Assets\Modelos\AnimeWorld\Scripts\CamaraController.cs" />
     <Compile Include="Assets\Modelos\AnimeWorld\Scripts\CharacterController.cs" />
+    <Compile Include="Assets\Modelos\AnimeWorld\Scripts\Shooting.cs" />
     <None Include="Assets\_Proyect\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
     <None Include="Assets\_Proyect\Standard Assets\Effects\ToonShading\Shaders\ToonBasic.shader" />
     <None Include="Assets\_Proyect\Standard Assets\Prototyping\Shaders\WorldCoordDiffuse.shader" />
