@@ -7,7 +7,7 @@ public class Shooting : MonoBehaviour
     public int Daño = 1;
     public float fireRate = .25f;
     public float gunRange = 50f;
-    public float hitForce = 100f;
+   // public float hitForce = 100f;
     public Transform trigger;
     public GameObject giorno;
 
@@ -40,6 +40,11 @@ public class Shooting : MonoBehaviour
             if (Physics.Raycast(rayOrigin,Cam.transform.forward,out hit, gunRange))
             {
                 laserLine.SetPosition(1, hit.point);
+
+                if (hit.collider.gameObject.CompareTag("enemy"))
+                {
+                    hit.collider.GetComponent<enemyHealth>().takeDamage(50);
+                }
             }
             else
             {
