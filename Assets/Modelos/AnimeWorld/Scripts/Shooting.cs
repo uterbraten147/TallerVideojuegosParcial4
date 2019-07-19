@@ -9,6 +9,7 @@ public class Shooting : MonoBehaviour
     public float gunRange = 50f;
     public float hitForce = 100f;
     public Transform trigger;
+    public GameObject giorno;
 
     private Camera Cam;
     private WaitForSeconds shotDuration = new WaitForSeconds(0.07f);
@@ -20,8 +21,8 @@ public class Shooting : MonoBehaviour
     {
         laserLine = GetComponent<LineRenderer>();
         //gunAudio = GetComponent<AudioSource>();
-        Cam = GetComponentInParent<Camera>();
-        
+        Cam = giorno.transform.GetChild(1).transform.GetChild(0).GetComponent<Camera>(); ;
+
     }
 
    
