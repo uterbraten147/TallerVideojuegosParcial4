@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 3315580}
   - component: {fileID: 2322708}
   - component: {fileID: 6554468}
-  m_Layer: 0
+  m_Layer: 4
   m_Name: world-sea
   m_TagString: Untagged
   m_Icon: {fileID: 0}
