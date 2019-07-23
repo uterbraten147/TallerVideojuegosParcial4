@@ -30,7 +30,7 @@ public class Example : MonoBehaviour
 
         if (acariciado)
         {
-            transform.LookAt(Character.transform);
+            transform.LookAt(Character.transform.localScale);
             transform.position += transform.forward * movementSpeed * Time.deltaTime;
             //acariciado = false;
         }
@@ -51,7 +51,7 @@ public class Example : MonoBehaviour
 
 
             Debug.Log("Acariciado");
-            StartCoroutine(Esperar(30));
+            StartCoroutine(Esperar(1));
             animator.SetBool("Acariciar", true);
             Text.SetActive(true);
             
