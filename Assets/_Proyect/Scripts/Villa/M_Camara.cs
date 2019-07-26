@@ -9,6 +9,7 @@ public class M_Camara : MonoBehaviour
     float rotation, rotationCamara, translation;
     public bool activo;
     private Rigidbody cuerpo;
+    public int vida;
     // Start is called before the first frame update
     void Start()
     {
@@ -17,6 +18,7 @@ public class M_Camara : MonoBehaviour
         //speed = 1f;
         speed = 50f;
         cuerpo = GetComponent<Rigidbody>();
+        vida = 10;
     }
 
     // Update is called once per frame
@@ -63,6 +65,19 @@ public class M_Camara : MonoBehaviour
         if (name == "M_Player")
         {
             interactuable.SetActive(false);
+        }
+    }
+    private void OnCollisionEnter(Collision collision)
+    {
+        cuerpo.velocity = Vector3.zero;
+        cuerpo.angularVelocity = Vector3.zero;
+        if (name != "M_Player")
+        {
+            vida -= 1;
+        }
+        if (vida <= 0)
+        {
+            gameObject.SetActive(false);
         }
     }
     public void activar()
