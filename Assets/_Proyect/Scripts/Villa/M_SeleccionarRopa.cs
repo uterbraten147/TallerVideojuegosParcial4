@@ -16,10 +16,25 @@ public class M_SeleccionarRopa : MonoBehaviour
         GetComponent<SkinnedMeshRenderer>().materials=materialesActuales;
     }
 
+    public void cambiarRopa(int dir)
+    {
+        index+=dir;
+        if (index == 7)
+        {
+            index = 0;
+        }
+        else if(index==-1)
+        {
+            index = 6;
+        }
+        materialesActuales = GetComponent<SkinnedMeshRenderer>().materials;
+        materialesActuales[3] = materiales[index];
+        GetComponent<SkinnedMeshRenderer>().materials = materialesActuales;
+    }
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.D))
+        /*if (Input.GetKeyDown(KeyCode.D))
         {
             index++;
             if (index == 7)
@@ -48,6 +63,6 @@ public class M_SeleccionarRopa : MonoBehaviour
             materialesActuales = GetComponent<SkinnedMeshRenderer>().materials;
             materialesActuales[3] = materiales[index];
             GetComponent<SkinnedMeshRenderer>().materials = materialesActuales;
-        }
+        }*/
     }
 }
