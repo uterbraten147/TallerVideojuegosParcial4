@@ -9,8 +9,10 @@ public class Encender : MonoBehaviour
     public GameObject Fuejo;
     public GameObject Fuego;
     public GameObject Fp;
+    public GameObject Text0;
     public bool Encendida;
     public float speed;
+    
 
     // Start is called before the first frame update
     private void Awake()
@@ -19,6 +21,7 @@ public class Encender : MonoBehaviour
         Encendida = false;
         Fuego.SetActive(false);
         Fp.SetActive(false);
+        Text0.SetActive(false);
     }
 
     void Start()
@@ -42,10 +45,13 @@ public class Encender : MonoBehaviour
         {
            
             Encendida = true;
+            
             Fuejo.SetActive(true);
             Fuego.SetActive(true);
             Fp.SetActive(true);
+            Text0.SetActive(true);
             StartCoroutine(Esperar(30));
+            StartCoroutine(EsperarT(6));
 
 
         }
@@ -57,10 +63,12 @@ public class Encender : MonoBehaviour
             Fuejo.SetActive(false);
             Fuego.SetActive(false);
             Fp.SetActive(false);
+        }
 
-
-
-
+        IEnumerator EsperarT(float i)
+        {
+            yield return new WaitForSeconds(i);
+            Text0.SetActive(false);
         }
 
 

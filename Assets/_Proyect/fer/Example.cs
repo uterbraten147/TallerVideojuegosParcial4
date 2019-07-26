@@ -3,6 +3,7 @@ using System.Collections.Generic;
 
 using UnityEngine;
 
+
 public class Example : MonoBehaviour
 
 { 
@@ -15,6 +16,9 @@ public class Example : MonoBehaviour
     public Animator animator;
     public float movementSpeed = 4;
     public bool acariciado;
+    public AudioClip clipi;
+    public AudioClip last;
+    public GameObject Text0;
 
 
     private void Awake()
@@ -22,6 +26,7 @@ public class Example : MonoBehaviour
         Text.SetActive(false);
         Acariciar = false ;
         acariciado = false;
+        Text0.SetActive(false);
 
     }
 
@@ -30,7 +35,7 @@ public class Example : MonoBehaviour
 
         if (acariciado)
         {
-            transform.LookAt(Character.transform.localScale);
+            transform.LookAt(target.transform);
             transform.position += transform.forward * movementSpeed * Time.deltaTime;
             //acariciado = false;
         }
@@ -51,13 +56,12 @@ public class Example : MonoBehaviour
 
 
             Debug.Log("Acariciado");
-            StartCoroutine(Esperar(1));
+            StartCoroutine(Esperar(5));
             animator.SetBool("Acariciar", true);
             Text.SetActive(true);
-            
-            
-            //Lookat();
 
+
+            
         }
 
     }
@@ -73,18 +77,45 @@ public class Example : MonoBehaviour
 
     public void Lookat()
     {
-        Character.transform.LookAt(target.transform);
+        target.transform.LookAt(target.transform);
         Acariciar = true;
         animator.SetBool("Acariciar", true);
     }
 
     IEnumerator Esperar(float i)
     {
-        Debug.Log("Entro pero aextra");
+        
         yield return  new WaitForSeconds(i);
         acariciado = true;
+        StartCoroutine(EsperarMS(16));
+        StartCoroutine(EsperarM(18));
+        AudioSource audio = GetComponent<AudioSource>();
+
+        audio.Play();
+        audio.clip = clipi;
+        audio.Play();
+        Text0.SetActive(true);
+
+    }
+   
+
+    IEnumerator EsperarMS(float i)
+    {
+        yield return new WaitForSeconds(i);
+
+        AudioSource audio = GetComponent<AudioSource>();
+        audio.Play();
+        audio.clip = last;
+        audio.Play();
+        Text0.SetActive(false);
 
 
+
+    }
+    IEnumerator EsperarM(float i)
+    {
+        yield return new WaitForSeconds(i);
+        Wolf.SetActive(false);
 
 
     }

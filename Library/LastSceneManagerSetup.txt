@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/_Proyect/Scenes/FerWorld.unity
+- path: Assets/_Proyect/Scenes/Lobby.unity
   isLoaded: 1
   isActive: 1

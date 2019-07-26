@@ -23,7 +23,7 @@ public class CamaraController : MonoBehaviour
     {
         mouseX += Input.GetAxis("Mouse X") * RotationSpeed;
         mouseY -= Input.GetAxis("Mouse Y")* RotationSpeed;
-        mouseY = Mathf.Clamp(mouseY, -35, 60);
+        mouseY = Mathf.Clamp(mouseY, -8, 60);
 
         transform.LookAt(target);
         target.rotation = Quaternion.Euler(mouseY, mouseX, 0);

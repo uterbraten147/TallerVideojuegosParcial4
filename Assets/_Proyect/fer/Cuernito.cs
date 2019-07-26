@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Cuernito : MonoBehaviour
 {
-    float speed = 3f;
+    float speed = 5f;
     public bool crouch;
     bool presionado;
 
@@ -57,6 +57,7 @@ public class Cuernito : MonoBehaviour
         float hor = Input.GetAxis("Horizontal");
         float ver = Input.GetAxis("Vertical");
         animator.SetFloat("Speed", ver);
+        animator.SetFloat("horiVer", hor);
         Vector3 playermove = new Vector3(hor, 0, ver) * speed * Time.deltaTime;
         transform.Translate(playermove, Space.Self);
 
